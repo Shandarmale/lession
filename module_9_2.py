@@ -6,20 +6,6 @@ comb_strings = first_strings + second_strings
 third_result = {x:len(x) for x in comb_strings if len(x) % 2 == 0}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 print(first_result)
 print(second_result)
 print(third_result)
